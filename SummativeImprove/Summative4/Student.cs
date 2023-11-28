@@ -13,7 +13,8 @@ public class Student
     public int Challenges { get; }
     public int project { get; }
     public int exam { get; }
-    
+    public double overall { get; set; }
+
     public Student(string line)
     {
         string data = line;
