@@ -18,16 +18,24 @@ public class Student
     public Student(string line)
     {
         string data = line;
-        Regex regex = new Regex(@"Student:\[ID:(\d+),lastName:(\w+),FirstName:(\w+)\]Marks:\[Challenges:\[([0-9]+)\],Exam:(\d+),Capstone:(\d+)\]");
-        Match match = regex.Match(data);
+        //Regex regex = new Regex(@"Student:\[ID:(\d+),LastName:(\w+),FirstName:(\w+)\],Marks:\[Challenges:\[([0-9]+)\],Exam:(\d+),Capstone:(\d+)\]");
+        Regex stu = new Regex(@"Student:\[ID:(\d+),LastName:(\w+),FirstName:(\w+)\]");
+        Regex mark = new Regex(@"Marks:\[Challenges:\[([0-9,]+)\],Exam:(\d+),Capstone:(\d+)\]");
+        Match match = stu.Match(line);
+        Match matchMark = mark.Match(line);
         if(match.Success)
         {
             id = int.Parse(match.Groups[1].Value);
             lName = match.Groups[2].Value;
             fName = match.Groups[3].Value;
-            challenges = match.Groups[4].Value.Split(',').Select(int.Parse).ToArray();
-            exam = int.Parse(match.Groups[5].Value);
-            project = int.Parse(match.Groups[6].Value);
+           
+        }
+
+        if (matchMark.Success)
+        {
+            challenges = matchMark.Groups[1].Value.Split(',').Select(int.Parse).ToArray();
+            exam = int.Parse(matchMark.Groups[2].Value);
+            project = int.Parse(matchMark.Groups[3].Value);
             Challenges = getChallengeScore(challenges);
         }
         
