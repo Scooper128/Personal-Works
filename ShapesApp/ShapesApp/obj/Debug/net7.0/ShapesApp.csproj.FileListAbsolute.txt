@@ -1,0 +1,15 @@
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.csproj.AssemblyReference.cache
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.AssemblyInfoInputs.cache
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.AssemblyInfo.cs
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.csproj.CoreCompileInputs.cache
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\bin\Debug\net7.0\ShapesApp.exe
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\bin\Debug\net7.0\ShapesApp.deps.json
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\bin\Debug\net7.0\ShapesApp.runtimeconfig.json
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\bin\Debug\net7.0\ShapesApp.dll
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\bin\Debug\net7.0\ShapesApp.pdb
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.dll
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\refint\ShapesApp.dll
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.pdb
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ShapesApp.genruntimeconfig.cache
+D:\Repos\Personal-Works\ShapesApp\ShapesApp\obj\Debug\net7.0\ref\ShapesApp.dll

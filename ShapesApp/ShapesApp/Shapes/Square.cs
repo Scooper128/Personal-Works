@@ -1,6 +1,6 @@
 ﻿namespace ShapesApp.Shapes;
 
-public class Square : Shape
+internal class Square : Shape
 {
     public const int MIN_SIDE = 0;
     public const int MAX_SIDE = 50;

@@ -1,6 +1,6 @@
 ﻿namespace ShapesApp.Shapes;
 
-public class Circle : Shape
+class Circle : Shape
 {
     public const int MIN_RADIUS = 0;
     public const int MAX_RADIUS = 50;
